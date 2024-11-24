@@ -1,0 +1,23 @@
+body {
+	background: radial-gradient(circle, grey, #030);
+	margin: 0 auto;
+	height: 100vh;
+}
+#trainClockArea {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 95%;
+	max-width: 400px;
+	height: 95%;
+	max-height: 400px;
+}
+#trainClockArea > #trainClock {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 100%;
+	width: 100%;
+}
